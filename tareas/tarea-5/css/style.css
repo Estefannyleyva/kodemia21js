@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500&display=swap');
+* {
+
+    box-sizing: border-x;
+    margin: 0;
+}
+
+
+body {
+
+    font-size: 16px;
+    background-image: url(/tareas/practica-5/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+}
+
+
+.imagen {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 50px;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+section {
+    background-color:hsl(225, 100%, 98%);
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 5px;
+    height: 80px;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    margin: 15px 15px;
+}
+article{
+    display: inline-block;
+    margin: 20px 0;
+    position: absolute;
+    font-size: 14px;
+}
+
+#parrafo-1{
+    color:hsl(223, 47%, 23%) ;
+}
+
+#precio {
+    color: hsl(224, 23%, 55%);
+}
+#change{
+    display: inline-block;
+    margin: 30px 120px;
+    position: absolute;
+    cursor: pointer;
+}
+#button-1{
+    width: 60%;
+    height: 40px;
+    margin: 20px 80px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+#button-2{
+    width: 60%;
+    height: 40px;
+    margin: 5px 80px;
+    background-color: white;
+    border: 0;
+    color: hsl(223, 47%, 23%);
+    border-radius: 10px;
+    cursor: pointer;
+}

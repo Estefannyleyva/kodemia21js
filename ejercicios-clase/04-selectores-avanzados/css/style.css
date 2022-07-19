@@ -1,0 +1,30 @@
+/*selector combinado*/
+/* todos los elementos header y tengan la clase header*/
+header.header {}
+
+/*selector hijo*/
+/* todos los section con clase introduccion 
+y sean hijos de nav con clase links*/ 
+/*en este caso niguno*/
+nav.links > section.introduction {}
+
+/*Selector descendiente*/
+/*todos los p dentro de la clase introduccion 
+dentro de un header con clase header*/
+header.header .introduction p {}
+
+
+/*Selector Hijo*/
+/*todos los p que sean hijos de un elemento
+  directo con clase introduccion*/
+.introduction > p {}
+
+/*selector hermano*/
+/* todos los elementos section hermanos de
+nav con clase links */
+nav.links ~ section {}
+
+/*selector adyecente*/
+/*todos los elementos section con clase introduction que sean 
+hermanos directos de nav con clase link*/
+nav.link + section.introduction {}

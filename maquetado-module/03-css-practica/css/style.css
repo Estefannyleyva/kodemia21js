@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: springgreen;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+nav{
+    background-color: forestgreen;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+}
+aside{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+main{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+article{
+    background-color: white;
+    color: black;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 15px;
+}
+footer{
+    background-color: darkorchid;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+}

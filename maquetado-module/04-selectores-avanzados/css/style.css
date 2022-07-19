@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.article{
+    border: 1px solid #ccc;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+article.article{
+    background-color: pink;
+}
+
+p.paragraph{
+    color: red;
+}
+
+article.article p.paragraph{
+    background-color: cyan;
+}
