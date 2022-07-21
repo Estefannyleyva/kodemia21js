@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /* 
+  Mobile First
+  */
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 0 auto;
+  }
+  
+  /* tablet */
+  /* >= 768px min-width */
+  
+  /* <= 768px max-width */
+  @media all and (min-width: 768px) and (orientation: landscape) {
+    .square {
+      background-color: red;
+    }
+  }
+  
+  @media all and (min-width: 768px) and (orientation: portrait) {
+    .square {
+      background-color: green;
+    }
+  }
+  
+  /* >= 1024px */
+  
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .square {
+      background-color: purple;
+      border-radius: 50%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    /* Reglas CSS */
+  }
+  
+  @media print {
+    .square {
+      background-color: royalblue;
+      border: 2px solid black;
+    }
+  }

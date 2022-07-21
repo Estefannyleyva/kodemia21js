@@ -81,4 +81,27 @@ body{
     /*margin funciona como el padding*/
     /*para aplicar margin auto deben ser elementos de bloque y tener in width definido*/
     margin: auto;
+    
+
+    /* margin */
+        /* margin-top: 50px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      margin-left: 100px; */
+    
+        /* margin: top right bottom left; */
+        /* margin: 50px 50px 50px 50px;
+      margin: 100px 20px;
+      margin: 50px; */
+    
+        /* margin: auto */
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+    
+        /* 
+      Aplicar auto a margin;
+      - Elemento block
+      - width definido
+      */
 }

@@ -1,42 +1,104 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     background-color: springgreen;
     padding: 15px 30px;
     border-radius: 5px;
 }
-nav{
+
+nav {
     background-color: forestgreen;
     border-radius: 5px;
     color: white;
     padding: 15px;
 }
-aside{
+
+aside {
     background-color: orange;
     color: white;
     border-radius: 5px;
     padding: 15px;
     display: inline-block;
 }
-main{
+
+main {
     background-color: red;
     color: white;
     border-radius: 5px;
     padding: 15px;
     display: inline-block;
 }
-article{
+
+article {
     background-color: white;
     color: black;
     margin: 15px 0;
     border-radius: 5px;
     padding: 15px;
 }
-footer{
+
+footer {
     background-color: darkorchid;
     color: white;
     border-radius: 5px;
     padding: 15px;
 }
+
+/* 
+Colores:
+- Palabra clave: green | red | blue
+- rgb(red, green, blue, alpha)
+  0 - 255
+  alpha -opacidad 0-1
+- Hex: (0 - F)
+#00 00 00
+- hsl()
+Hue (Tono o matiz del color)
+Saturation (Saturación del color)
+Lightness (Luminusidad del color)
+*/
+
+
+/* 
+ -block
+  - podemos aplicarle las propiedades
+    del box model
+    - width
+    - height
+    - padding
+    - margin
+    - border
+ -inline
+  - No podemos aplicarlo width ni height
+  - Solo podemos aplicarles margenes horizontales
+    - margin-left
+    - margin-right
+  solo podemos aplicarles padding horizontales
+   - padding-left
+   - padding-right
+ -inline-block
+*/
+
+/* Unidades de medida 
+  
+  - Absoluta: tienen un valor definido  (su valor no depende de nada)
+    - px
+    - cm
+    - mm
+    - pt
+  - Relativas: Su valoror dependerán de algo externo
+               Su valor es relativo a algo.
+    - % : son relativos al tamaños del padre del elemento
+    - viewport
+     - vw (viewport width)
+     - vh (viewport height)
+    
+    - rem: Es relativa al tamaño de fuente o font-size del elemento raiz del
+           documento.
+      1rem = 16px
+    - em: Es relativo al tamaño de fuente del padre más cercano
+          con un font-size declarado.
+*/
