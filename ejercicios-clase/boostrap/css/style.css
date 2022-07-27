@@ -8,7 +8,7 @@
   align-items: center;
 }
 .container .article__title {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 .container .article-orange {
   background-color: hsl(31deg, 77%, 52%);
@@ -60,6 +60,7 @@
 .container .article__paragraph {
   color: hsla(0deg, 0%, 100%, 0.75);
   border-radius: 30px;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {

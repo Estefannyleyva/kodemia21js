@@ -8,7 +8,7 @@
     align-items: center;
 
     .article__title{
-        font-family: 'Lexend Deca', sans-serif;
+        font-family: 'Big Shoulders Display', cursive;
     }
     .article-orange{
         background-color: hsl(31, 77%, 52%);
@@ -63,6 +63,7 @@
     .article__paragraph{
         color: hsla(0, 0%, 100%, 0.75);
         border-radius: 30px;
+        font-weight: 400;
     }
 }
 
