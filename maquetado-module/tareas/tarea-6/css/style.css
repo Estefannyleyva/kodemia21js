@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 15px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.article {
+    width: 320px;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article--orange {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+
+.article--cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.article--green {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.article__icon {
+    width: 65px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
+.article__title {
+    color: hsl(0, 0%, 95%);
+    margin: 15px 5px;
+    text-align: start;
+    font-size: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.article__paragraph {
+    margin: 10px 5px 60px 5px;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: start;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    margin: 5px 5px;
+    border-radius: 30px;
+    height: 45px;
+    width: 130px;
+    border: none;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+}
+
+.button--sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.button--suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button--luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.button:hover{
+    background-color: transparent;
+    border: solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+}
+
+@media (min-width: 1024px){
+
+    .container {
+        flex-direction: row;
+    }
+
+    .article--orange {
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0;
+    }
+    .article--green {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 7px;
+    }
+
+}
