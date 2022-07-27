@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 15px;
+}
+
+.container{
+    align-items: center;
+
+    .article__title{
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .article-orange{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    .article-cyan{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .article-green{
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .btn{
+        border-radius: 30px;
+        background-color: aliceblue;
+        
+        &-sedans {
+            color: hsl(31, 77%, 52%);
+            border-radius: 30px;
+            &:hover{
+                background-color: transparent;
+                border: solid 1px hsl(0, 0%, 95%);
+                cursor: pointer;
+                color: hsl(0, 0%, 95%);
+            }
+        }
+
+        &-suvs {
+            color: hsl(184, 100%, 22%);
+            border-radius: 30px;
+            &:hover{
+                background-color: transparent;
+                border: solid 1px hsl(0, 0%, 95%);
+                cursor: pointer;
+                color: hsl(0, 0%, 95%);
+            }
+        }
+
+        &-luxury {
+            color: hsl(179, 100%, 13%);
+            border-radius: 30px;
+            &:hover{
+                background-color: transparent;
+                border: solid 1px hsl(0, 0%, 95%);
+                cursor: pointer;
+                color: hsl(0, 0%, 95%);
+            }
+        }
+    }
+    .article__paragraph{
+        color: hsla(0, 0%, 100%, 0.75);
+        border-radius: 30px;
+    }
+}
+
+
+
+
+@media (min-width: 768px){
+
+    .container{
+        height: 100vh;
+        justify-content: center;
+        .article-orange {
+            border-bottom-left-radius: 7px;
+            border-top-right-radius: 0;
+        }
+        .article-green {
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 7px;
+        }
+    }
+}
