@@ -1,0 +1,40 @@
+.intro{
+    background-image: url(../assets/images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(0, 0%, 98%);
+    background-size: 100%;
+}
+.easybank{
+    background-color: hsl(220, 16%, 96%);
+}
+.articles{
+    background-color: hsl(0, 0%, 98%);
+}
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    &-logo{
+        background-color: azure;
+    }
+}
+.mockups{
+    width: 100%;
+}
+.card{
+    width: 250px;
+    height: 440px;
+    cursor: pointer;
+
+    &-img{
+        height: 150px;
+    }
+    &-title:hover{
+        color: hsl(136, 65%, 51%);
+        
+    }
+}
+.btn{
+    background-color: hsl(136, 65%, 51%);
+}
+.list-group{
+    color: aliceblue;
+}

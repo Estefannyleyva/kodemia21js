@@ -1,1 +1,45 @@
-/*# sourceMappingURL=style.css.map */
+.intro {
+  background-image: url(../assets/images/bg-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(0deg, 0%, 98%);
+  background-size: 100%;
+}
+
+.easybank {
+  background-color: hsl(220deg, 16%, 96%);
+}
+
+.articles {
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+.footer {
+  background-color: hsl(233deg, 26%, 24%);
+}
+.footer-logo {
+  background-color: azure;
+}
+
+.mockups {
+  width: 100%;
+}
+
+.card {
+  width: 250px;
+  height: 440px;
+  cursor: pointer;
+}
+.card-img {
+  height: 150px;
+}
+.card-title:hover {
+  color: hsl(136deg, 65%, 51%);
+}
+
+.btn {
+  background-color: hsl(136deg, 65%, 51%);
+}
+
+.list-group {
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
