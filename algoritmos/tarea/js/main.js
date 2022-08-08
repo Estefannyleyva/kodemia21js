@@ -16,27 +16,27 @@ if (edad >= 3 && edad < 6 ) {
 
 switch (true) {
     case edad >= 3 && edad < 6:
-        console.log("actualmente deberias estar cursando preescolar")
+        console.log("actualmente deberias estar cursando preescolar");
         
         break;
     case edad >= 6 && edad <= 11:
-        console.log("actualmente deberias estar cursando primaria")
+        console.log("actualmente deberias estar cursando primaria");
         
         break;
     case edad >= 12 && edad <= 14:
-        console.log("actualmente deberias estar cursando secundaria")
+        console.log("actualmente deberias estar cursando secundaria");
         
         break;
     case edad >= 15 && edad <= 17:
-        console.log("actualmente deberias estar cursando preparatoria")
+        console.log("actualmente deberias estar cursando preparatoria");
 
         break;
     case edad >= 18 && edad <= 25:
-        console.log("actualmente deberias estar cursando universidad")
+        console.log("actualmente deberias estar cursando universidad");
 
         break;
     case edad >= 18 && edad <= 25:
-        console.log("actualmente deberias estar cursando universidad")
+        console.log("actualmente deberias estar cursando universidad");
     
         break;
         
