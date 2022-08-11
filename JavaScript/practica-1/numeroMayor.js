@@ -11,5 +11,5 @@ if (number1 > number2){
 }else if (typeof number1 && number2 !== 'number') {
     console.log('El valor ingresado no es un numero')
 }else {
-    console.log('el primer numero es mayor: ' + resultado + ' los numeros osn iguales')
+    console.log('el primer numero es mayor: ' + resultado + ' los numeros son iguales')
 }
