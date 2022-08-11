@@ -1,5 +1,5 @@
-let number1 = 10;
-let number2 = 5;
+let number1 = 5;
+let number2 = 6;
 let resultado = true;
 
 if (number1 > number2){
@@ -8,8 +8,9 @@ if (number1 > number2){
 }else if (number1 < number2) {
     resultado = false;
     console.log('el primer numero es mayor: ' + resultado)
-}else if (typeof number1 && number2 !== 'number') {
-    console.log('El valor ingresado no es un numero')
+}else if( number1 === number2){
+    resultado = false;
+    console.log('el primer numero es mayor: ' + resultado + ', los numeros son iguales')
 }else {
-    console.log('el primer numero es mayor: ' + resultado + ' los numeros son iguales')
+    console.log('el valor ingresado no es un numero')
 }
