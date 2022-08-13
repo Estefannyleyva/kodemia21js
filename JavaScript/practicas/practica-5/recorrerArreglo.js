@@ -2,10 +2,12 @@
 //con while
 
 const arreglo = ['Rafa', 'Javi', 'Hector', 'Fanny']
-let index = (arreglo.length -1);
-
+let index = 0;
+let totalValores = (arreglo.length-1);
 function imprimirArreglo (arreglo){
-    while (index >= 0) {
-        console.log()
+    while (index <= totalValores) {
+        console.log(arreglo[index]);
+        index++;
     }
 }
+imprimirArreglo(arreglo);
