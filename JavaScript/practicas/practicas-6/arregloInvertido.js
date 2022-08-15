@@ -4,21 +4,20 @@ let longitudDelArreglo = arreglo.length-1;
 
 function arrayInvertido(array) {
     let nuevoArray = [];
-    for (let i = 0; i <= array.length-1; i++) {
+    for (let i = 0; i < array.length; i++) {
         nuevoArray[i] = array [longitudDelArreglo];
-        longitudDelArreglo--
+        longitudDelArreglo--;
     }
-    console.log(nuevoArray)
+    console.log(nuevoArray);
 }
-arrayInvertido(arreglo)
-
+arrayInvertido(arreglo);
 
 /*-----------------------------------------------------------*/
 
-
-let arrayReverse = ['fanny', 'ivan', 'uriel', 'fabi'];
+let arrayReverse = ['fanny', 'ivan'];
 function arregloReverse(array) {
     array.reverse();
-    console.log(array)
+    console.log(array);
 }
 arregloReverse(arrayReverse);
+
