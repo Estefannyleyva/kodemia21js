@@ -11,6 +11,3 @@ let numeroMayor= function(numeros) {
     console.log(mayor);
 }
 numeroMayor(arregloNumeros)
-
-
-
