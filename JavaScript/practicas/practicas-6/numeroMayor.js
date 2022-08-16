@@ -1,4 +1,4 @@
-let arregloNumeros = [1, 2, 8, 4, 5,9];
+let arregloNumeros = [1, 2, 8, 4, 5];
 let numeroMayor= function(numeros) {
     let mayor = 0;
     for (let i = 0; i < numeros.length; i++) {
@@ -8,6 +8,6 @@ let numeroMayor= function(numeros) {
             
         }
     }
-    console.log(mayor);
+    return mayor;
 }
-numeroMayor(arregloNumeros)
+console.log(numeroMayor(arregloNumeros));

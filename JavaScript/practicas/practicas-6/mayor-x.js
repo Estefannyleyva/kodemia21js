@@ -1,4 +1,4 @@
-let arregloNumeros = [1, 2, 3, 4, 5, 6, 7, 8];
+let arregloNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let mayor = 4;
 let total = 0;
 let numerosMayores= function(numeros, mayor) {

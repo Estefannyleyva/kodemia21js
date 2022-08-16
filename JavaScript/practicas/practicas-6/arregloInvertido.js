@@ -8,9 +8,10 @@ function arrayInvertido(array) {
         nuevoArray[i] = array [longitudDelArreglo];
         longitudDelArreglo--;
     }
-    console.log(nuevoArray);
+    return nuevoArray;
 }
-arrayInvertido(arreglo);
+console.log(arrayInvertido(arreglo));
+
 
 /*-----------------------------------------------------------*/
 
