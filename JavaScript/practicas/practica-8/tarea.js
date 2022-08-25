@@ -14,7 +14,7 @@ function split(string) {
 console.log(split(string2))
 
 String.prototype.imprimir = function () {
-  console.log(arguments);
+  console.log(this);
 
 }
 string.imprimir();
