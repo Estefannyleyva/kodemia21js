@@ -28,4 +28,4 @@ console.log(inicialesFinales)
 // console.log(numbersDuplicated)
 // const nameArray = ['Jonatan', 'Manu', 'Annie', 'Cin'];
 // const primeraInicial = map(nameArray, (myArray) => (myArray[0]))
-// console.log(primeraInicial)
+// console.log(primeraInicial) 
