@@ -1,0 +1,13 @@
+#list {
+    background-color: hotpink;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#list li{
+    background-color: white;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
