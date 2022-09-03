@@ -13,6 +13,7 @@ body{
     height: 500px;
     border: solid 4px rgba(255, 0, 200, 0.582);
     border-radius: 5px;
+    padding-bottom: 10px;
 }
 #calculadora{
     width: 350px;
@@ -29,10 +30,14 @@ body{
     align-items: center;
 }
 #input{
-    border: solid 2px rgba(58, 137, 255, 0.562);
+    padding-left: 10px;
+    border: solid 2px rgba(58, 137, 255, 0.473);
     background-color: rgba(124, 179, 252, 0.219);
-    height: 100px;
+    color: rgba(95, 13, 172, 0.616);
+    font-size: 3.1rem;
+    height: 120px;
     width: 90%;
+    margin-top: 20px;
 }
 .filas{
     width: 62px;
@@ -46,7 +51,14 @@ body{
 button{
     border: solid 2px rgba(169, 93, 241, 0.493);
     background-color: rgba(169, 93, 241, 0.11);
+    color: rgba(38, 125, 255, 0.747);
+    font-size: 1.2rem;
     background-size: cover;
     height: 70px;
     width: 55px;
+}
+button:active{
+    transform: scale(1.1);
+    background-color: rgba(169, 93, 241, 0.493);
+    color: rgba(18, 83, 180, 0.849);
 }
