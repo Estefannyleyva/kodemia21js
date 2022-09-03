@@ -1,0 +1,52 @@
+body{
+    background-image: url(../img/1819-color-pastel.jpg);
+    background-size: cover;
+}
+#contenedor-general{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedor{
+    width: 350px;
+    height: 500px;
+    border: solid 4px rgba(255, 0, 200, 0.582);
+    border-radius: 5px;
+}
+#calculadora{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+#pantalla{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    border: solid 2px rgba(58, 137, 255, 0.562);
+    background-color: rgba(124, 179, 252, 0.219);
+    height: 100px;
+    width: 90%;
+}
+.filas{
+    width: 62px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: solid 2px rgba(169, 93, 241, 0.493);
+    background-color: rgba(169, 93, 241, 0.11);
+    background-size: cover;
+    height: 70px;
+    width: 55px;
+}
