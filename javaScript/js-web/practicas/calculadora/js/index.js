@@ -67,9 +67,9 @@ function eventos(){
 }
 
 eventos();
-let operacion;
+let operacion = '';
 
- let numero;
+ let numero = 0;
 
 function operaciones(){
    
