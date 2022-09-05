@@ -5,10 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>calculadora</title>
 </head>
 <body>
-    
+    <main id="contenedor-general">
+        <section id="contenedor">
+            <div id="pantalla">
+                <input id="input">
+            </div>
+            
+            <section id="calculadora">
+                <div class="filas">         
+                    <button id="sietedos" class="numeros">7</button>
+                    <button id="cuatro" class="numeros">4</button>
+                    <button id="uno" class="numeros">1</button>
+                    <button id="limpiar">C</button>
+                </div>
+                <div class="filas">
+                    <button id="ocho" class="numeros">8</button>
+                    <button id="cinco" class="numeros">5</button>
+                    <button id="dos" class="numeros">2</button>
+                    <button id="cero" class="numeros">0</button>
+                </div>
+                <div class="filas">
+                    <button id="nueve" class="numeros">9</button>
+                    <button id="seis" class="numeros">6</button>
+                    <button id="tres" class="numeros">3</button>
+                    <button id="punto">.</button>       
+                </div>
+                <div class="filas">
+                    <button id="division" class="operaciones">÷</button>
+                    <button id="resta" class="operaciones">-</button>
+                    <button id="suma" class="operaciones">+</button>
+                    <button id="igual">=</button>
+                    
+                </div>
+                <div class="filas">
+                    <button id="multiplicacion" class="operaciones">x</button>
+                    <button id="porcentaje" class="operaciones">%</button>
+                    <button id="potencia" class="operaciones">^</button>
+                    <button id="raiz" class="operaciones">√</button>
+                </div>
+            </section>
+        </section>    
+    </main>
     <script src="./js/index.js" type="module"></script>
 </body>
 </html>
