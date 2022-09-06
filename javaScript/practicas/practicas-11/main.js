@@ -639,9 +639,18 @@ const myOwnReduce = () => [] // arreglo filtrado
 
 
 // Escribe un metodo que retorne un nuevo objeto sin las propiedades pasadas como argumentos
-cleanObject({ a: 1, b: 2 }, 'b'); // return { a: 1 }
+function cleanObject (object, string){
+  let newobject = {};
+  if (object[string]){
+    return false;
+  }else{
+    Object.assign({}, object);
+    return true;
+  }
+}
+console.log(cleanObject({ a: 1, b: 2 }, 'b')); // return { a: 1 }
 
-// Generar una funcion que me ayude a convertir una palabra  o frase a formato snake_case
+//Generar una funcion que me ayude a convertir una palabra  o frase a formato snake_case
 let snakeCase = function (str){ 
 
 };
