@@ -12,3 +12,44 @@ while (fanny > 18 && fanny < 30){
 for(let annie = 18; annie < 30; annie++){
     console.log('Annie es mayor de edad', annie)
 };//se ocupa para repetir codigo pero de manera más controlada, evalua que sea el caso contrario
+
+
+//for in recorre objetos
+// esto es un objeto literal
+const libro = {
+    titulo: 'Harry potter y el misterio de JS',
+    autor: 'Victor',
+    paginas: 300
+};
+// estamos accediento a ls llaves del objeto y sus valores
+for(let nombrePropiedad in libro){
+    console.log(nombrePropiedad,
+    libro[nombrePropiedad]);
+};
+
+
+// for of recorre arreglos mediante su indice
+let frutas = ['fresa', 'mango', 'melon'];
+//for of itera sobre objetos iterables
+for(let fruta of frutas){
+    console.log(fruta);
+};
+//un objeto iterable; tiene indices 
+  //si ejecutamos un for in en un arreglo nos regresa el indice
+  for(let indice in frutas){
+    console.log(frutas[indice]);//accedemos a los valores mediante el indice
+  };
+
+
+let obj = {
+    frutas: ['fresa', 'mango', 'melon'],
+    personaje: ['harry', 'sina', 'hector']
+}
+for(let propiedad in obj){
+    //primero ccede a frutas
+    //despues ejecuta personajes
+    for(let elementos of obj[propiedad]){
+        //accedemos al index del arreglo
+        console.log(elemento)
+    };
+};
