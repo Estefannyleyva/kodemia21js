@@ -1,0 +1,17 @@
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    margin: 15px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    margin: auto;
+    width: 100px;
+}
