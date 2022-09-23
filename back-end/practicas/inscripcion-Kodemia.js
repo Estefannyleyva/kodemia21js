@@ -18,7 +18,7 @@
 */
 
 function enterToKodemia(callback, alumno) {
-    console.log('Empieza el proceso, recibe información');
+    console.log('Empieza el proceso, recibe información...');
     setTimeout(() => {
         callback(null, alumno);
     }, 2000);
@@ -39,7 +39,7 @@ function inscriptionToKodemia(callback, alumno) {
 };
 
 function prebootcamp(callback, alumno) {
-    console.log('ya estas en el prebootcamp');
+    console.log('iniciando prebootcamp...');
     setTimeout(() => {
         callback(null, alumno);
     }, 2000);
@@ -61,7 +61,7 @@ enterToKodemia((error, alumno) => {
    
     alumno.isInterviewed = true;
     console.log(alumno);
-    console.log('entrevista realizada');
+    console.log(`entrevista realizada a ${alumno.name}`);
 
     ofertToKodemia((error, alumno) => {
         if(error){
@@ -70,7 +70,7 @@ enterToKodemia((error, alumno) => {
         }
         alumno.hasOffer = true;
         console.log(alumno);
-        console.log('Recibe la oferta');
+        console.log(`${alumno.name} recibe la oferta`);
 
         inscriptionToKodemia((error, alumno) => {
             if(error){
@@ -79,7 +79,7 @@ enterToKodemia((error, alumno) => {
             }
             alumno.isInscript = true;
             console.log(alumno);
-            console.log('Ya estas inscrito');
+            console.log(`${alumno.name} ya esta inscrito`);
             
             prebootcamp((error, alumno) => {
                 if(error){
@@ -88,7 +88,7 @@ enterToKodemia((error, alumno) => {
                 }
                 alumno.canTakeClass = true;
                 console.log(alumno);
-                console.log('Prebootcamp terminado, ya estas dentro de kodemia');
+                console.log(`Prebootcamp terminado, ${alumno.name} bienveni@ a Kodemia`);
 
             }, alumno)      
         }, alumno)
