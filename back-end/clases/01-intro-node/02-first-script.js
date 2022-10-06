@@ -13,6 +13,9 @@ const saludoFanny = saludo('fanny');
 
 console.log(saludoFanny);
 
+/*
+Crear una función que me devuelva un nombre aleatorio de un arreglo
+*/
 function nombreAleatorio(array){
     const posiciones = array.length;
     let numeroRandom = Math.floor(Math.random() * (posiciones - 0) + 0);
